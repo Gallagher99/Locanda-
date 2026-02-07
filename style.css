@@ -1,0 +1,94 @@
+body {
+    background-color: #000000;
+    color: #ff0000;
+    font-family: serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; 
+    overflow-x: hidden;
+}
+
+h2, h4, p {
+    color: #ff0000;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.sezione-mappa {
+    width: 95%;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sezione-mappa:first-of-type {
+    max-width: 1200px;
+}
+
+.cornice {
+    display: inline-block;
+    border: 3px solid #ff0000;
+    line-height: 0;
+    max-width: 100%;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.sezione-personaggio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.gruppo-locandiera {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 700px; 
+}
+
+.gruppo-locandiera .cornice img {
+    width: 100%;
+    max-width: 700px; 
+    height: auto;
+}
+
+#riquadro-descrizione {
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 20px;
+    border: 3px solid #ff0000;
+    border-top: none; 
+    background-color: #000000;
+}
+
+#riquadro-descrizione h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ff0000;
+    padding-bottom: 5px;
+}
+
+#riquadro-descrizione p {
+    text-transform: none;
+    font-style: italic;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 0;
+    font-size: 16px;
+    word-spacing: 1px;
+}
